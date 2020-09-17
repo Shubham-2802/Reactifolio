@@ -38,7 +38,7 @@ class About extends Component {
 			                <br /> <br />
 				    		<Col className="d-flex justify-content-center flex-wrap">
 				    			<div>
-				    				<a href="#contact">
+				    				<a href="#contacts">
 				    					<Button className="m-2" variant="outline-warning">Contact</Button>
 				    				</a>
 				    			</div>

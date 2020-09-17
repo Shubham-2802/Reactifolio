@@ -1,0 +1,44 @@
+.jumboattri {
+  background-image: url("../../assets/img/background/contact_us_2.jpg");
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center; 
+  max-height: 200px;
+}
+
+.focus {
+  transition: transform 0.3s;
+  height: 350px;
+}
+
+.focus:hover {
+  transform: scale(1.05);
+}
+
+.jumbo {
+  width: 100%;
+  background-color: #CBC2D0;
+  border-radius: 10px;
+}
+
+.image-style {
+  width: 3em;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.font-details {
+  font-size: 3em;
+  font-weight: 500;
+  color: #581845;
+}
+
+.font-details-b {
+  font-size: 3em;
+  font-weight: 500;
+  color: #581845;
+}

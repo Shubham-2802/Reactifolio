@@ -31,6 +31,7 @@ class Navigation extends Component {
 					      <Nav.Link href="#education">Education</Nav.Link>
 					      <Nav.Link href="#skills">Skills</Nav.Link>
 					      <Nav.Link href="#projects">Projects</Nav.Link>
+					      <Nav.Link href="#contacts">Contacts</Nav.Link>
 					    </Nav>
 					  </Navbar.Collapse>
 				  </div>

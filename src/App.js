@@ -3,6 +3,7 @@ import "./App.css";
 import Container from 'react-bootstrap/Container';
 import Particles from 'react-particles-js';
 import Navigation from "./components/Navigation/Navigation";
+import Contact from "./components/Contact/Contact";
 import Carousal from "./components/Carousal/Carousal";
 import Titlemessage from "./components/Titlemessage/Titlemessage";
 import About from "./pages/About/About";
@@ -42,7 +43,7 @@ class App extends Component {
         <Navigation/>
         <Carousal/>
         <Titlemessage/>
-        <hr/>
+        <hr className="style-four"/>
         <div>
 	        <Parallax blur={{ min: -30, max: 30 }}
 			          bgImage={require("./assets/img/parallex/bg3.jpg")}
@@ -57,7 +58,7 @@ class App extends Component {
 	        	</div>
 	        </Parallax>
         </div>
-        <hr/>
+        <hr className="style-four"/>
         <div>
 	        <Parallax blur={{ min: -30, max: 30 }}
 			          bgImage={require("./assets/img/parallex/background2.jpg")}
@@ -72,7 +73,7 @@ class App extends Component {
 	        	</div>
 	        </Parallax>
         </div>
-        <hr/>
+        <hr className="style-four"/>
         <div>
 	        <Parallax blur={{ min: -30, max: 30 }}
 			          bgImage={require("./assets/img/parallex/background2.jpg")}
@@ -86,7 +87,22 @@ class App extends Component {
 		        	</Container>
 	        	</div>
 	        </Parallax>
-        </div>Container>
+        </div>
+        <hr className="style-four"/>
+        <div>
+	        <Parallax blur={{ min: -30, max: 30 }}
+			          bgImage={require("./assets/img/parallex/background2.jpg")}
+			          bgImageAlt=""
+			          strength={-200}>
+			    <div>      
+		        	<Container className="container-box rounded">
+			        	<Fade duration={500}>
+			        		<Contact/>
+			        	</Fade>
+		        	</Container>
+	        	</div>
+	        </Parallax>
+        </div>
       </div>
     );
   }
