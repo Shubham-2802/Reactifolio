@@ -13,7 +13,7 @@ class About extends Component {
 		return(
 		<div id="about">	
 			<div className="about">
-				<div className="jumbo"><h1 className="pt-1 text-center font-details pb-1">About Me</h1></div>
+				<div className="jumbo"><h1 className="pt-1 text-center font-details pb-1">ABOUT ME</h1></div>
 				<Container>
 				  <Row className="pt-3 pb-5 align-items-center">
 				    <Col xs={12} md={5}>

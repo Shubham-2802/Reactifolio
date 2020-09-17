@@ -12,6 +12,12 @@
   transform: scale(1.05);
 }
 
+.jumbo {
+  width: 100%;
+  background-color: #CBC2D0;
+  border-radius: 10px;
+}
+
 .card-title {
   font-size: 2em;
   font-weight: 700;
@@ -24,11 +30,11 @@
 .font-details {
   font-size: 3em;
   font-weight: 500;
-  color: #231d5af8;
+  color: #581845;
 }
 
 .font-details-b {
   font-size: 3em;
   font-weight: 500;
-  color: #231d5af8;
+  color: #581845;
 }

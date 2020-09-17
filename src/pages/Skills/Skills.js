@@ -10,8 +10,8 @@ import { skills } from "./Skillsdatabase";
 class Skills extends Component{
 	render(){
 		return(
-				<div className="main pt-3 pb-3 pl-3 pr-3" id="skills">
-				    <h1 className="text-center font-details-b pb-4">TECH SKILLS</h1>
+				<div className="pt-3 pb-3 pl-3 pr-3" id="skills">
+				    <div className="jumbo"><h1 className="text-center font-details-b pb-2">TECH SKILLS</h1></div>
 					<CardDeck>
 						<Row className="d-flex justify-content-around">
 							<Col md={4}>

@@ -2,6 +2,7 @@ import React,{ Component } from 'react';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
 //import Image from "react-bootstrap/Image";
+import Edu from "../../assets/img/background/edu.jpg";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import './Education.css';
@@ -10,14 +11,16 @@ import Button from 'react-bootstrap/Button';
 class Education extends Component{
 	render(){
 		return(
-				<div className="main pt-3 pb-3 pl-3 w-100" id="education">
-				    <h1 className="text-center font-details-b pb-4">EDUCATION</h1>
+				<div className="pt-3 pb-3 pl-3" id="education">
+				    <div className="jumbo"><h1 className="text-center font-details-b pb-2">EDUCATION</h1></div>
 					<CardDeck>
-						<Row className="justify-content-start">
+						<Row className="d-flex justify-content-around">
 							<Col xs="6" sm="4">
-							  <Card className="focus mt-2 mb-2 shadow-1" border="success" style={{ width: '20rem' }}>
-							    <Card.Body className="">
-							     <Card.Title className="text-center  card-title">B.E</Card.Title>
+							  <Card className="focus mt-2 mb-2" border="success" style={{ width: '20rem' }}>
+							    <Card.Body>
+							    <Card.Img src={Edu} className="cardimage" alt="Card image" />
+  								<Card.ImgOverlay>
+							     <Card.Title className="text-center card-title">B.E</Card.Title>
 					                <hr />
 					                <Card.Text className="text-center card-text d-flex justify-content-start flex-column">
 					                  <strong>SJB Institute of Technology</strong>
@@ -30,12 +33,15 @@ class Education extends Component{
 					    					<Button className="m-2" variant="outline-success">View Marksheet</Button>
 					    				</a>
 					    			</div>
+					    		</Card.ImgOverlay>	
 							    </Card.Body>
 							  </Card>
 							 </Col> 
 							 <Col xs="6" sm="4">
 							  <Card className="focus mt-2 mb-2" border="success" style={{ width: '20rem' }}>
 							    <Card.Body>
+							    <Card.Img src={Edu} className="cardimage" alt="Card image" />
+  								<Card.ImgOverlay>
 							      <Card.Title className="text-center card-title">Senior Secondary(XII)</Card.Title>
 							      <hr />
 							      <Card.Text className="text-center card-text d-flex justify-content-start flex-column">
@@ -49,12 +55,15 @@ class Education extends Component{
 					    					<Button className="m-2" variant="outline-success">View Marksheet</Button>
 					    				</a>
 					    			</div>
+					    		</Card.ImgOverlay>	
 							    </Card.Body> 
 						      </Card>
 						     </Col> 
 							 <Col sm="4"> 
 							  <Card className="focus mt-2 mb-2" border="success" style={{ width: '20rem' }}>
 							    <Card.Body>
+							    <Card.Img src={Edu} className="cardimage" alt="Card image" />
+  								<Card.ImgOverlay>
 							      <Card.Title className="text-center card-title">Secondary(X)</Card.Title>
 							      <hr />
 							      <Card.Text className="text-center card-text d-flex justify-content-start flex-column">
@@ -68,6 +77,7 @@ class Education extends Component{
 					    					<Button className="m-2" variant="outline-success">View Marksheet</Button>
 					    				</a>
 					    			</div>
+					    		</Card.ImgOverlay>	
 							    </Card.Body>
 							  </Card>
 							 </Col> 
