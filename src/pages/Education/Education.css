@@ -1,0 +1,40 @@
+.main {
+  width:100%;
+  margin:none;
+}
+
+.focus {
+  transition: transform 0.3s;
+  height: 350px;
+}
+
+.focus:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.image-style {
+  width: 3em;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.font-details {
+  font-size: 3em;
+  font-weight: 500;
+  color: #231d5af8;
+}
+
+.font-details-b {
+  font-size: 3em;
+  font-weight: 500;
+  color: #231d5af8;
+}
